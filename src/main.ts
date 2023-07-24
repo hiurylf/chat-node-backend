@@ -1,11 +1,6 @@
-interface Test {
-  name: string;
-  user: string;
-}
+import { serverHttp } from './http';
+import './websocket';
 
-const tt = () => {
-  const user: Test = {
-    name: 'aeoraodke',
-    user: 'doiderea',
-  };
-};
+const port = process.env.PORT || 3000;
+
+serverHttp.listen(port, () => console.log(`Server is running on PORT ${port}`));
