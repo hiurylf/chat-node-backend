@@ -1,6 +1,8 @@
 # Project - Chat back-end with Node.js
 
-Goals:
+## Live demo [link](https://chat-front-web.vercel.app/)
+
+## Goals:
 
 1. Use mongoDB
 2. User auth routes / middlewares
